@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+}
+nav{
+    height: 25px;
+    width: auto;
+    background: black;
+    color:white;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.item{
+    text-decoration: none;
+    color:white
+}
+main{
+    background-image: url("../img/DesarrolloS.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+}
+.container {
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.container_ventajas{
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    border: 2px;
+    color: white;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.ventajas{
+    font-family: "Raleway";
+}
+footer{
+    height: 50px;
+    background: black;
+    color:white;
+    text-align: center;
+}
+h1{
+    font-family: "Kiwi_Maru";
+    font-weight: 800;
+    font-size: 100px;
+}
+h2{
+    font-family: "Comfortaa";
+    font-size: 500;
+}
